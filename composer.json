@@ -9,5 +9,21 @@
             "email": "bogdan.cismariu@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "extphp/data-dot": "^0.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0|^6.0|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ExtPHP\\Dottp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
 }
