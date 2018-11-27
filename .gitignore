@@ -1,2 +1,5 @@
-/vendor/
-/tests/
+vendor
+composer.lock
+
+*.DS_Store
+.vscode
