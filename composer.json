@@ -1,0 +1,13 @@
+{
+    "name": "extphp/dottp",
+    "description": "A custom Guzzle wrapper",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bogdan Cismariu",
+            "email": "bogdan.cismariu@gmail.com"
+        }
+    ],
+    "require": {}
+}
